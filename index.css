@@ -48,12 +48,12 @@ h1{
 
 #userLabel{
     position: absolute;
-    left: 34%;
+    left: 42.2%;
 }
 
 #compLabel{
     position: absolute;
-    right: 33.5%;
+    right: 41.8%;
 }
 
 .result p{
@@ -65,7 +65,7 @@ h1{
 }
 
 .choice{
-    border: 5px solid whitesmoke;
+    border: 3px solid whitesmoke;
     display: inline-block;
     border-radius: 50%;
     margin: 3vh;
@@ -76,13 +76,19 @@ h1{
     width: 125px;
     border-radius: 50%;
     padding: 20px;
-    filter: saturate(12);
+    filter: saturate(6);
 }
 
 .choices{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.choice:hover{
+    background-color: rgb(36, 36, 36);
+    cursor: grab;
 }
 
 .action-message{
