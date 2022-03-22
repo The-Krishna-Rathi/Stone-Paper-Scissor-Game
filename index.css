@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(51, 56, 55);
+}
+
+header{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.score-board{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.scores{
+    border: 6px solid antiquewhite;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+.scores span{
+    margin: auto;
+}
+
+.label{
+    background-color: rgb(250, 53, 53);
+    color: rgb(252, 231, 220);
+    padding: 2px 5px;
+    font-weight: 600;
+    top: 14%
+}
+
+#userLabel{
+    position: absolute;
+    left: 34%;
+}
+
+#compLabel{
+    position: absolute;
+    right: 33.5%;
+}
+
+.result p{
+    color: antiquewhite;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.choice{
+    border: 5px solid whitesmoke;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 3vh;
+}
+
+.choice img{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    padding: 20px;
+    filter: saturate(12);
+}
+
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.action-message{
+    font-size: xx-large;
+    color: antiquewhite;
+    text-align: center;
+}
